@@ -1,0 +1,20 @@
+{
+    "nombreApp": "componentes",
+    "rutas2":[
+        {
+            "ruta" : "vehicle",
+            "icon": "garage",
+            "texto": "VehÃ­culos"
+        },
+        {
+            "ruta" : "houses",
+            "texto": "Casas",
+            "icon": "domain"
+        },
+        {
+            "ruta" : "furniture",
+            "texto": "Muebles",
+            "icon": "living"
+        }
+    ]
+}
