@@ -36,12 +36,15 @@ class AlertPage extends StatelessWidget {
           return AlertDialog(
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0)),
-            title: Text('Titulo'),
+            title: Text('Avanzar a avatar'),
             content: Column(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
-                Text('Contenido de la alerta'),
-                FlutterLogo(size: 100)
+                Image(
+                  image: NetworkImage(
+                      'https://www.pngkit.com/png/full/186-1866208_glados-is-a-potato-portal2-attack-on-titan.png'),
+                  height: 200,
+                )
               ],
             ),
             actions: <Widget>[
