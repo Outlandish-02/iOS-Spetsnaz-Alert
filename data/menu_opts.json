@@ -16,6 +16,21 @@
             "ruta" : "card",
             "icon":"folder_open",
             "texto": "Cards - Tarjetas"
+        },
+        {
+            "ruta" : "AnimatedContainer",
+            "icon":"donut_large",
+            "texto": "Animated Container"
+        },
+        {
+            "ruta" : "inputs",
+            "icon":"input",
+            "texto": "Inputs"
+        },
+        {
+            "ruta" : "inputs2",
+            "icon":"input",
+            "texto": "Inputs2"
         }
     ]
 }
