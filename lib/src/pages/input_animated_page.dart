@@ -89,7 +89,7 @@ class _InputAnimatedPageState extends State<InputAnimatedPage> {
 
       if (contador < 10) {
         _borderRadius = BorderRadius.circular(random.nextInt(100).toDouble());
-      } else if (contador >= 10) {
+      } else {
         _borderRadius =
             BorderRadius.only(topLeft: Radius.elliptical(500.0, 200));
       }
