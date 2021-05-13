@@ -31,6 +31,11 @@
             "ruta" : "inputs2",
             "icon":"input",
             "texto": "Inputs2"
+        },
+        {
+            "ruta" : "slider",
+            "icon": "tune",
+            "texto": "Sliders"
         }
     ]
 }
